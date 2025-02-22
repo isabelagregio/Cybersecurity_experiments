@@ -1,0 +1,18 @@
+import json
+import matplotlib.pyplot as plt
+from collections import Counter
+
+def plot_responses(output_file):
+    with open(output_file, 'r') as f:
+        data = json.load(f)
+    
+    counts = Counter(item["clean_judge_response"] for item in data)
+    
+    plt.figure(figsize=(6, 4))
+    plt.bar(counts.keys(), counts.values(), color=['green', 'red'])
+    plt.xlabel("Successful")
+    plt.ylabel("Count")
+    plt.title("Prompt Injection Successful - Llama2")
+    plt.show()
+
+plot_responses("promptinjection-judged-llama2.json")  
