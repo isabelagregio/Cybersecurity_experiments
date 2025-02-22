@@ -6,7 +6,7 @@ from pathlib import Path
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "codellama/CodeLlama-13b-Instruct-hf"
+model_name = "meta-llama/CodeLlama-7b-Instruct-hf"
 token = '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'
 
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=token)
