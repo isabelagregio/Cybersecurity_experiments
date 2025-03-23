@@ -2,6 +2,4 @@
 Melhorando a segurança de LLM's
 
 
-
-![Explicação do método](harmful_experiment.png)
-
+<img src="harmful_experiment.png" alt="Explicação do método" width="500" />
