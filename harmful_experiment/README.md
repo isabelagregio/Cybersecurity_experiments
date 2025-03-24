@@ -20,3 +20,7 @@ O gráfico a seguir indica o aumento de classificações "safe" para as resposta
 <div align="center">
   <img src="frequency_of_safe_classifications.jpg" alt="Frequencia" width="500"/>
 </div>
+Refazendo o mesmo experimento para testar o modelo "Llama-3.1-8B-Instruct" para responder aos prompts e o resultado obtido foi:
+<div align="center">
+  <img src="frequency_of_safe_classifications_llama3_page-0001.jpg" alt="Frequencia" width="500"/>
+</div>
