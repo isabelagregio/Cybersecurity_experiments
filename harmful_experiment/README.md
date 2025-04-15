@@ -18,11 +18,11 @@ A aplicação do nosso método consiste então de escolher como "resposta ajusta
 ### Análise dos resultados
 O gráfico a seguir indica o aumento de classificações "safe" para as respostas corrigidas em relação às respostas originais, indicando um bom desempenho do método que desenvolvemos, dispensando a necessidade de alterar parâmetros do modelo. 
 <div align="center">
-  <img src="frequency_of_safe_classifications.jpg" alt="Frequencia" width="500"/>
+  <img src="frequency_of_safe_classification.jpg" alt="Frequencia" width="500"/>
 </div>
 Refazendo o mesmo experimento para testar o modelo "Llama-3.1-8B-Instruct" para responder aos prompts e o resultado obtido foi:
 <div align="center">
-  <img src="frequency_of_safe_classifications_llama3_page-0001.jpg" alt="Frequencia" width="500"/>
+  <img src="frequency_of_safe_classification_llama3.jpg" alt="Frequencia" width="500"/>
 </div>
 
-## Finetuning supervisionado e Refusal Training
+
