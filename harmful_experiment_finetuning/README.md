@@ -1,10 +1,10 @@
 # Melhorando a segurança de LLM's - Finetuning
 ### Análise do método das perturbações
 <div align="center">
-  <img src="original_harmful.jpg" alt="Frequencia" width="500"/>
+  <img src="original_harmful.jpg" alt="Frequencia" width="300"/>
 </div>
 <div align="center">
-  <img src="metodo_pertubacoes_harmful.jpg" alt="Frequencia" width="500"/>
+  <img src="metodo_pertubacoes_harmful.jpg" alt="Frequencia" width="300"/>
 </div>
 ### Comparação com Latent Adversarial Training
 
