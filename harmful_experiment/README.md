@@ -1,5 +1,5 @@
 # Melhorando a segurança de LLM's
-
+## Método das perturbações
 ### Dataset utilizado 
 Para esse experimento, utilizamos o dataset "LLM-LAT/harmful-dataset" do Hugging Face. Ele possui os campos "prompt", representando uma instrução perigosa, "rejected", representando uma resposta que atende ao prompt e consequentemente indicando risco de segurança e "chosen", consistindo de uma resposta que se recusa a antender ao pedido perigoso. 
 
@@ -24,3 +24,5 @@ Refazendo o mesmo experimento para testar o modelo "Llama-3.1-8B-Instruct" para 
 <div align="center">
   <img src="frequency_of_safe_classifications_llama3_page-0001.jpg" alt="Frequencia" width="500"/>
 </div>
+
+## Finetuning supervisionado e Refusal Training
