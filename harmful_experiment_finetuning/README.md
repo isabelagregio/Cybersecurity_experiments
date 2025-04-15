@@ -31,3 +31,5 @@ Considerando tanto os prompts malignos como benignos, o resultado para o modelo 
 </div>
 
 ### Referências
+- Sheshadri et al. "Targeted Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs", ICLR (2025)
+- Pareja et al. "Unveiling the Secret Recipe: A Guide For Supervised Fine-Tuning Small LLMs", arXiv:2412.13337 (2024)
